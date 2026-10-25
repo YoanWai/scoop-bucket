@@ -1,17 +1,17 @@
 {
-    "version": "0.43.1",
+    "version": "0.43.2",
     "description": "Run Claude Code, Codex, OpenCode and other AI coding agents in tmux",
     "homepage": "https://agent-manager.dev/",
     "license": "Apache-2.0",
     "depends": "main/psmux",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.43.1/agent-manager_0.43.1_windows_amd64.zip",
-            "hash": "46085fe22c8570a884435238eb4f2785ffabbdac14a098cb511600c57863fa18"
+            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.43.2/agent-manager_0.43.2_windows_amd64.zip",
+            "hash": "42f8a58dff4262e5c6fbcd261aa77aaa9bc00d201e6de6e4f1647de55880bf67"
         },
         "arm64": {
-            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.43.1/agent-manager_0.43.1_windows_arm64.zip",
-            "hash": "4745f5c23af27c406436b72f07b3381f4385a0a800d67990c7399c3f45aef267"
+            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.43.2/agent-manager_0.43.2_windows_arm64.zip",
+            "hash": "c76ea5b1127b31bac8b1478de09dbbfd610726a9194e811cec430f0817a6b2ec"
         }
     },
     "bin": "agent-manager.exe",
