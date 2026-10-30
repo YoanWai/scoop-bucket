@@ -1,26 +1,25 @@
 {
-    "version": "0.44.0",
-    "description": "Run Claude Code, Codex, OpenCode and other AI coding agents in tmux",
-    "homepage": "https://agent-manager.dev/",
-    "license": "Apache-2.0",
-    "depends": "main/psmux",
+    "version": "0.45.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.44.0/agent-manager_0.44.0_windows_amd64.zip",
-            "hash": "90146354171ca0ada0e773c894cc55a7c1bfede8ec5e6a95af9f541ffc2357c0"
+            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.45.0/agent-manager_0.45.0_windows_amd64.zip",
+            "bin": [
+                "agent-manager.exe"
+            ],
+            "hash": "3f1cd119df8228852fd6083736b0d04125b9a048a37faac38e2491886e5ce973"
         },
         "arm64": {
-            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.44.0/agent-manager_0.44.0_windows_arm64.zip",
-            "hash": "d3abee3cc6ad58d8ad2d442db90f421d73da24b1d9544cebe5881ddc161bb011"
+            "url": "https://github.com/YoanWai/agent-manager/releases/download/v0.45.0/agent-manager_0.45.0_windows_arm64.zip",
+            "bin": [
+                "agent-manager.exe"
+            ],
+            "hash": "1cabfeadd3a1c6a25b35cdff90fe10ca42c9cc1a3829fcfee336e1a04c2913cd"
         }
     },
-    "bin": "agent-manager.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": { "url": "https://github.com/YoanWai/agent-manager/releases/download/v$version/agent-manager_$version_windows_amd64.zip" },
-            "arm64": { "url": "https://github.com/YoanWai/agent-manager/releases/download/v$version/agent-manager_$version_windows_arm64.zip" }
-        },
-        "hash": { "url": "$baseurl/checksums.txt" }
-    }
+    "homepage": "https://agent-manager.dev/",
+    "license": "Apache-2.0",
+    "description": "Run Claude Code, Codex, OpenCode and other AI coding agents in tmux",
+    "depends": [
+        "main/psmux"
+    ]
 }
