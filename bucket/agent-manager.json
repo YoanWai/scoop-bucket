@@ -1,19 +1,19 @@
 {
-    "version": "0.47.1",
+    "version": "0.48.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wainmann/agent-manager/releases/download/v0.47.1/agent-manager_0.47.1_windows_amd64.zip",
+            "url": "https://github.com/wainmann/agent-manager/releases/download/v0.48.0/agent-manager_0.48.0_windows_amd64.zip",
             "bin": [
                 "agent-manager.exe"
             ],
-            "hash": "184d7bf75d69b8e9d2b9da3f613df79a8d0937e02cd2d6db55b590e85ecabd95"
+            "hash": "48a46a3ff0bb2bd5fca40c0aef9acbb038a8ba55e58ac2ab686964aaf5cc9835"
         },
         "arm64": {
-            "url": "https://github.com/wainmann/agent-manager/releases/download/v0.47.1/agent-manager_0.47.1_windows_arm64.zip",
+            "url": "https://github.com/wainmann/agent-manager/releases/download/v0.48.0/agent-manager_0.48.0_windows_arm64.zip",
             "bin": [
                 "agent-manager.exe"
             ],
-            "hash": "422645223cd8c0956bad28918c6e2049978a474ffda91aeabf846c6de6ba418f"
+            "hash": "e5d4b7bb95e3178c0acc672d24b6178c22d78bc4681dd4f01a02c506635bfeab"
         }
     },
     "homepage": "https://agent-manager.dev/",
